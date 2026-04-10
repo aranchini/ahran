@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+p{
+    background: yellow;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    border: 20px solid cyan;
+}
+
+#round { border-image: url("그림2.png") 30 round; }
+#repeat { border-image: url("그림2.png") 30 repeat; }
+#stretch { border-image: url("그림2.png") 30 stretch; }
+</style>
+</head>
+<body>
+<p>20X20 크기의 테두리를 가진 p블록</p>
+<p id="round">round스타일 테두리</p>
+<p id="repeat">repeat스타일 테두리</p>
+<p id="stretch">stretch스타일 테두리</p>
+</body>
+</html>
