@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    table{
+        border: 1px solid blue;
+        border-collapse: collapse;
+    }
+    td,th{
+        border: 1px dashed red;
+        height: 20px;
+        width: 100px;
+        text-align: left;
+    }
+    thead{
+        background: dimgray;
+        color: yellow;
+    }
+    tfoot th{
+        border-bottom: 2px dotted black;
+    }
+    tbody tr:nth-child(even){
+        background: paleturquoise;
+    }
+    tbody tr:nth-child(odd){
+        background: pink;
+    }
+</style>
+</head>
+<body>
+<h2>1학기 성적</h2>
+<hr>
+<table>
+    <thead>
+        <tr>
+            <th>이름</th>
+            <th>HTML</th>
+            <th>CSS</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>합</th>
+            <th>175</th>
+            <th>179</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>황기태</td>
+            <td>80</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>이재문</td>
+            <td>80</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>황기태</td>
+            <td>80</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>이재문</td>
+            <td>80</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>황기태</td>
+            <td>80</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>이재문</td>
+            <td>80</td>
+            <td>90</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
