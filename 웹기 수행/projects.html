@@ -7,42 +7,40 @@
 </head>
 <body>
 
-    <div class="wrapper">
+    <header>
+        <div class="logo">LOGO</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">메인 페이지</a></li>
+                <li><a href="projects.html" class="active">프로젝트 목록</a></li>
+                <li><a href="skills.html">기술 목록</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <header>
-            <div class="logo">GSM</div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">메인 페이지</a></li>
-                    <li><a href="projects.html" class="active">프로젝트 목록</a></li>
-                    <li><a href="skills.html">기술 목록</a></li>
-                </ul>
-            </nav>
-        </header>
+    <section>
+        <h2>프로젝트 목록</h2>
 
-        <section>
-            <div class="career-box" style="margin-bottom: 20px;">
-                <h2 style="font-size: 24px;">프로젝트 목록</h2>
+        <div class="project-item">
+            <h3 class="project-title">1. 나의 첫 번째 웹페이지 만들기</h3>
+            <div class="project-body">
+                <img src="https://via.placeholder.com/200x120" alt="프로젝트1 캡처">
+                <p class="project-desc">이 프로젝트는 HTML과 CSS의 기초를 배우고 처음으로 혼자 힘으로 완성해 본 개인 포트폴리오 웹사이트입니다. 시멘틱 태그를 바르게 사용하여 구조를 잡았고, CSS를 활용해 메뉴바에 마우스 오버 효과와 애니메이션을 직접 적용해 보았습니다. 코드를 직접 짜보면서 웹 브라우저에 내가 만든 화면이 그대로 나타나는 과정이 정말 신기했고 웹 개발에 흥미를 느끼게 된 계기였습니다.</p>
             </div>
-            
-            <div class="top-profile-container" style="flex-direction: column; gap: 20px;">
-                <div class="intro-box">
-                    <h3>① 학급 알리미 스마트 웹 서비스</h3>
-                    <p>교내 학생들이 학급 공지사항과 급식 정보를 실시간으로 확인하고 소통할 수 있는 반응형 웹사이트를 제작했습니다. HTML5 시멘틱 태그를 명확히 사용하여 구조를 잡았으며 미디어쿼리를 활용해 모바일 환경에서도 편안하게 볼 수 있는 뷰를 만들었습니다.</p>
-                </div>
+        </div>
 
-                <div class="intro-box">
-                    <h3>② 도서관 좌석 예약 관리 시스템</h3>
-                    <p>우리 학교 도서관의 빈 좌석을 실시간으로 확인하고 원격으로 예약할 수 있는 웹 어플리케이션입니다. 자바스크립트를 이용해 상태 변화를 동적으로 제어하며, 브라우저가 꺼져도 기존 예약 상태가 보존되도록 로컬 스토리지에 데이터를 파싱했습니다.</p>
-                </div>
+        <div class="project-item">
+            <h3 class="project-title">2. 자바스크립트 미니 계산기 구현</h3>
+            <div class="project-body">
+                <img src="https://via.placeholder.com/200x120" alt="프로젝트2 캡처">
+                <p class="project-desc">학교 동아리 활동 시간에 친구들과 팀을 이루어 진행한 자바스크립트 사칙연산 계산기 프로그램입니다. HTML로 기본적인 버튼과 숫자 UI 화면을 배치하고, CSS로 깔끔한 디자인을 입힌 뒤 자바스크립트의 이벤트 리스너 함수를 구현하여 실제 덧셈, 뺄셈, 곱셈, 나눗셈이 작동하도록 만들었습니다. 팀원들과 의견을 나누며 협업하는 즐거움을 배웠습니다.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <footer>
-            <div class="footer-text">&copy;gsm high school 서아란</div>
-        </footer>
-
-    </div>
+    <footer>
+        <p>COPY GSM 홍길동. All Rights Reserved.</p>
+    </footer>
 
 </body>
 </html>
