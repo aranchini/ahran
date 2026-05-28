@@ -76,6 +76,9 @@ section h2 {
     padding: 15px;
     margin-top: 20px;
 }
+.career-box ul {
+    padding-left: 20px;
+}
 
 /* 5. 프로젝트 목록 전용 (조건: h3 태그에 글자색 지정) */
 .project-title {
