@@ -11,8 +11,8 @@ body {
 /* 2. 헤더와 메뉴바 (가로 정렬) */
 header {
     background-color: white;
-    display: flex;
     justify-content: space-between;
+    display: flex;
     padding: 15px;
 }
 nav ul {
