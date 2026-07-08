@@ -5,3 +5,5 @@ toBuy[2] = "water";
 console.log(toBuy);
 toBuy.push("meat");
 console.log(toBuy);
+
+// array 복습한거임
