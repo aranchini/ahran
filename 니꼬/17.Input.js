@@ -1,0 +1,27 @@
+const loginInput = document.querySelector("#login-form input")
+const loginButton = document.querySelector("#login-form button")
+
+function onLoginBtnClick(){
+    console.log(hello,loginInput.value)
+}
+
+loginButton.addEventListener("click",onLoginBtnClick)
+
+/*<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login-form">
+        <input type="text" placeholder="이름이 무엇인가요?">
+        <button>Log In</button>
+    </div>
+    <script src="17.Input.js"></script>
+</body>
+</html>*/
