@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+const clock = document.querySelector("h2#clock");
+
+function sayHello(){
+    console.log("hello");
+}
+
+setInterval(sayHello, 5000);
+
+/*<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -17,8 +25,8 @@
       <input type="submit" value="Log In" />
     </form>
     <h1 class="hidden" id="greeting"></h1>
-    <h2 id="clock">00:00:00</h2>
+    <h2 id="clock">00:00</h2>
     <script src=""></script>
-    <script src="25.Timeout , Dates.js"></script>
+    <script src="24.Intervals.js"></script>
   </body>
-</html>
+</html>*/
