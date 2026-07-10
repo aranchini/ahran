@@ -1,4 +1,25 @@
-<!DOCTYPE html>
+const toDoForm = document.getElementById("todo-form");
+const toDoInput = toDoForm.querySelector("#todo-form input");
+const toDoList = document.getElementById("todo-list");
+
+function paintToDo(newTodo){
+    const li = document.createElement("li");
+    const span = document.createElement("span");
+    li.appendChild(span);
+    span.innerText= newTodo;
+    toDoList.appendChild(li);
+}
+
+function handleToDoSubmit(event){
+    event.preventDefault();
+    const newTodo =toDoInput.value;
+    toDoInput.value="";
+    paintToDo(newTodo);
+}
+
+toDoForm.addEventListener("submit",handleToDoSubmit);
+
+/*<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,4 +53,4 @@
     <script src="28.background.js"></script>
     <script src="30.Adding todo.js"></script>
   </body>
-</html>
+</html>*/
