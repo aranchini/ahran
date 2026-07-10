@@ -12,8 +12,9 @@ function saveToDos(){
 
 function deleteToDo(event){
     const li = event.target.parentElement;
-    console.log(li.id);
     li.remove();
+    toDos =toDos.filter((toDo) => toDo.id !== parseInt(li.id));
+    saveToDos();
 } // 투두 지우는 함수
 
 function paintToDo(newTodo){
@@ -53,5 +54,7 @@ if(savedToDos !== null){
 }
 
 function sexyFilter(){
-    
+
 }
+
+//최종본
